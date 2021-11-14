@@ -4,7 +4,7 @@ import Navbar from './components/navbar-components'
 import Background from './components/background-components';
 import Content from './components/Content';
 import Education from './components/Education';
-import WorkExperience from './components/Work_Experience';
+import Interests from './components/Work_Experience';
 import Skills from './components/Skills';
 
 import{
@@ -16,7 +16,7 @@ import{
 
 function App() {
   return (
-    <Router basename="react-cv-githubio">
+    <Router basename="Masterapplication">
       <div className="App">
         <Navbar/>
         <Switch>
@@ -26,8 +26,8 @@ function App() {
           <Route exact path="/Education">
             <Education/>
           </Route>
-          <Route exact path="/WorkExperience">
-            <WorkExperience/>
+          <Route exact path="/Interests">
+            <Interests/>
           </Route>
           <Route exact path="/Skills">
             <Skills/>

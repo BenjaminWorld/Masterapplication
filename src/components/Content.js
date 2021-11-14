@@ -20,7 +20,7 @@ function Content() {
                             Benjamin Lee 
                             </div>
                             <div class="details">
-                                <span> An self-motivated engineer with a passion for software development, who is currently seeking an opportunity to change my field of career in web development.</span><br/>
+                                <span> A self-motivated engineer upholding a dream to be an interdisciplinary professional in computer science and energy engineering. I'm currently seeking a MSc in Computer Science and Data Analytics to accomplish it. </span><br/>
                                 <br/>
                                 <img src={pic2} style={{height:"4vh"}}/>
                                 <span> 18-12-1997</span><br/>
@@ -29,7 +29,7 @@ function Content() {
                                 <span> +852 92823577</span><br/>
                                 <br/>
                                 <img src={pic1} style={{height:"4vh"}}/>
-                                <span> benjiman0125@hotmail.com</span> 
+                                <span> leekwunsang@gmail.com</span> 
                             </div>
                         </div>
                     </div>

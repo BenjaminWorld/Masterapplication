@@ -1,6 +1,6 @@
 import pic from "../circlepic.JPG";
 
-function WorkExperience() {
+function Intersts() {
     return (
         <div class="position-absolute top-50 start-50 translate-middle">
             <div class="card" style={{height:"70vh", width:"80vw"}}>
@@ -11,32 +11,32 @@ function WorkExperience() {
                         </div>
                         <div class="col-5">
                             <div class="name">
-                            Work Experience
+                            Intersts & Hobbies
                             </div>
                             <div class="job">
                             <br/>
-                                <span>Otis Elevator Hong Kong Limited</span><br/>
+                                <span>Reading technology blogs and articles</span><br/>
                             </div>
                             <div class="role">
-                                <span>Assistant Service Sales Engineer<br/> July/2020 - Present
+                                <span>E.g. Freedom To Tinker, FreeCodeCamp, Stack Overflow Blog
                                 </span>
                                 <br/>
                                 <br/>
                             </div>
                             <div class="job">
-                                <span>Business Environment Council</span><br/>
+                                <span>Photo and Video Editing </span><br/>
                             </div>
                             <div class="role">
-                                <span>Sustainability Consultant, Internship<br/>Apr/2020 - Jul/2020
+                                <span>E.g. Travelling vlogs, Birthday videoes 
                                 </span>
                                 <br/>
                                 <br/>
                             </div>
                             <div class="job">
-                                <span>CLP Power Hong Kong Limited </span><br/>
+                                <span>Watching online courses</span><br/>
                             </div>
                             <div class="role">
-                                <span>Assistant Engineer, Internship<br/>Sep/2019 - Apr/2020
+                                <span>E.g. TED talks, Udemy, Skillshare, etc.
                                 </span>
                             </div>
                         </div>
@@ -47,4 +47,4 @@ function WorkExperience() {
         
     )
 }
-export default WorkExperience;
+export default Intersts;

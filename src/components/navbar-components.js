@@ -17,7 +17,7 @@ function Navbar() {
             <Link class="nav-link" to="Education">Education</Link>
           </li>
           <li class="nav-item">
-            <Link class="nav-link" to="WorkExperience">Work Experience</Link>
+            <Link class="nav-link" to="Interests">Interests</Link>
           </li>
           <li class="nav-item">
             <Link class="nav-link" to="Skills">Skills</Link>

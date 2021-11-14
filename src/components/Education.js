@@ -18,14 +18,14 @@ function Education() {
                                 <span>City University of Hong Kong</span><br/>
                             </div>
                             <div class="degree">
-                                <span>Bachelor of Environmental Engineering 2016 - 2020</span><br/>
+                                <span>Bachelor of Energy Engineering 2016 - 2020</span><br/>
                                 <br/>
                             </div>
                             <div class="university">
                                 <span>HKU Space</span><br/>
                             </div>
                             <div class="degree">
-                                <span>Certificate of Data Analytics and Web Scraping 2020</span><br/>
+                                <span>Professional Certificate in Data Analytics 2020</span><br/>
                                 <br/>
                             </div>
                             <div class="university">
