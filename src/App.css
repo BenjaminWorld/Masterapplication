@@ -3,7 +3,6 @@
   height: 70vh;
   background-color: red; /* For browsers that do not support gradients */
   background-image: linear-gradient(to left, mediumslateblue, #61dafb);
-  
 }
 
 .App-logo {
@@ -40,30 +39,69 @@
     transform: rotate(360deg);
   }
 }
+
 .name {
-  font-weight: bold;
-  font-size: 40px;
+  font-weight: bolder;
+  font-size: 50px;
   color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .navbar-collapse{
   flex-grow: 0!important;
+  background-color: #61dafb;
+  font-weight: bold;
+  border-radius: 30px;
 }
+
+.nav-link:hover{
+  font-style: italic;
+  background-color: mediumslateblue;
+  border-radius: 30px;
+}
+
+.nav-item1:hover{
+  font-style: italic;
+  background-color: mediumslateblue;
+  border-radius: 30px;
+}
+
+.nav-item2:hover{
+  font-style: italic;
+  background-color: mediumslateblue;
+  border-radius: 30px;
+}
+
+.nav-item3:hover{
+  font-style: italic;
+  background-color: mediumslateblue;
+  border-radius: 30px;
+}
+
+.navbar-brand:hover{
+  font-weight: 900;
+}
+
 .university{
   font-style: italic;
   font-weight: bold;
   font-size: 20px;
 }
+
 .degree{
   font-size: 15px;
 }
+
 .job{
   font-style: italic;
   font-weight: bold;
   font-size: 20px;
 }
+
 .role{
   font-size: 15px;
 }
+
 .computerskills{
   font-style: italic;
   font-weight: bold;

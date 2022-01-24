@@ -6,11 +6,11 @@ import pic3 from "../phone.png";
 function Content() {
     return (
         <div class="position-absolute top-50 start-50 translate-middle">
-            <div class="card" style={{height:"70vh", width:"80vw"}}>
-            <div class="card-body">
+            <div class="card" style={{height:"70vh", width:"80vw",borderRadius:50,minWidth:"500px", minHeight:"300px"}}>
+                <div class="card-body">
                     <div class="row justify-content-start">
                         <div class="col-7">
-                            <img src={pic} style={{height:"65vh"}}/>
+                            <img src={pic} style={{height:"auto", width:"70%"}}/>
                         </div>
                         <div class="col-5">
                             <div class="hello">
@@ -19,17 +19,16 @@ function Content() {
                             <div class="name">
                             Benjamin Lee 
                             </div>
+                            <br/>
                             <div class="details">
-                                <span> A self-motivated engineer upholding a dream to be an interdisciplinary professional in computer science and energy engineering. I'm currently seeking a MSc in Computer Science and Data Analytics to accomplish it. </span><br/>
+                                <div class="description"style={{textAlign:"justify"}}> A self-motivated software engineer who is passionate in IT professionalism and with eagerness to learn in the dynamic coding environment. I'm a good team player with excellent communicaiton skils. </div><br/>
+                                <img src={pic2} style={{height:"4vh"}}/> 18-12-1997
                                 <br/>
-                                <img src={pic2} style={{height:"4vh"}}/>
-                                <span> 18-12-1997</span><br/>
                                 <br/>
-                                <img src={pic3} style={{height:"4vh"}}/>
-                                <span> +852 92823577</span><br/>
+                                <img src={pic3} style={{height:"4vh"}}/> +852 92823577
                                 <br/>
-                                <img src={pic1} style={{height:"4vh"}}/>
-                                <span> leekwunsang@gmail.com</span> 
+                                <br/>
+                                <img src={pic1} style={{height:"4vh"}}/> benjiman0125@hotmail.com
                             </div>
                         </div>
                     </div>

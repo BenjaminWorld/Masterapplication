@@ -3,11 +3,11 @@ import pic from "../circlepic.JPG";
 function Education() {
     return (
         <div class="position-absolute top-50 start-50 translate-middle">
-            <div class="card" style={{height:"70vh", width:"80vw"}}>
+            <div class="card" style={{height:"70vh", width:"80vw",borderRadius:50,minWidth:"500px", minHeight:"300px"}}>
               <div class="card-body">
                     <div class="row justify-content-start">
                         <div class="col-7">
-                            <img src={pic} style={{height:"65vh"}}/>
+                            <img src={pic} style={{height:"auto", width:"70%"}}/>
                         </div>
                         <div class="col-5">
                             <div class="name">

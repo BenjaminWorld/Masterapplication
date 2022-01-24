@@ -1,44 +1,48 @@
 import pic from "../circlepic.JPG";
 
-function Intersts() {
+function Work_Experience() {
     return (
         <div class="position-absolute top-50 start-50 translate-middle">
-            <div class="card" style={{height:"70vh", width:"80vw"}}>
+            <div class="card" style={{height:"70vh", width:"80vw",borderRadius:50,minWidth:"500px", minHeight:"300px"}}>
               <div class="card-body">
                     <div class="row justify-content-start">
+                        
                         <div class="col-7">
-                            <img src={pic} style={{height:"65vh"}}/>
+                            <img src={pic} style={{height:"auto", width:"70%"}}/>
                         </div>
+
                         <div class="col-5">
                             <div class="name">
-                            Intersts & Hobbies
+                            Work Experience 
                             </div>
+
                             <div class="job">
                             <br/>
-                                <span>Reading technology blogs and articles</span><br/>
+                                <span>Blue Sky Energy Technology Limited</span><br/>
                             </div>
+
                             <div class="role">
-                                <span>E.g. Freedom To Tinker, FreeCodeCamp, Stack Overflow Blog
-                                </span>
-                                <br/>
+                                <span>Software Engineer</span><br/>
                                 <br/>
                             </div>
+
                             <div class="job">
-                                <span>Photo and Video Editing </span><br/>
+                                <span>Otis Elevator Hong Kong Limited </span><br/>
                             </div>
+
                             <div class="role">
-                                <span>E.g. Travelling vlogs, Birthday videoes 
-                                </span>
-                                <br/>
+                                <span>Assistant Engineer, Service Sales</span><br/>
                                 <br/>
                             </div>
+
                             <div class="job">
-                                <span>Watching online courses</span><br/>
+                                <span>CLP Power Hong Kong Limited</span><br/>
                             </div>
+
                             <div class="role">
-                                <span>E.g. TED talks, Udemy, Skillshare, etc.
-                                </span>
+                                <span>Assistant Engineer, Internship</span>
                             </div>
+
                         </div>
                      </div>
                 </div>
@@ -47,4 +51,4 @@ function Intersts() {
         
     )
 }
-export default Intersts;
+export default Work_Experience;
